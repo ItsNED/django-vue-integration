@@ -17,3 +17,6 @@
     - prepare to use Vue.js
     - create webpack.config.js
     - npm install
+    - create .babelrc
+    - made api in django
+    - ./node_modules/.bin/webpack
