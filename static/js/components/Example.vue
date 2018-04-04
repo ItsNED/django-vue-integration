@@ -23,7 +23,11 @@ export default {
         }
     },
     mounted(){
-        this.$http.get("/homepage/games").then( (res) => this.list = res.data )
+        this.$http.get("/homepage/games")
+        .then( (res) => {
+            // console.log(res.data)
+            this.list = res.data 
+        })
     }
 }
 </script>

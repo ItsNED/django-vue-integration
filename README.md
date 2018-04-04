@@ -19,4 +19,5 @@
     - npm install
     - create .babelrc
     - made api in django
-    - ./node_modules/.bin/webpack
+    - ./node_modules/.bin/webpack to create bundle.js
+    - link bundle.js to layout.html
