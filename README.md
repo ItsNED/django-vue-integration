@@ -13,3 +13,7 @@
 
 2. prepare for vue
     - npm init (entry point : App.js)
+    - modify package.json
+    - prepare to use Vue.js
+    - create webpack.config.js
+    - npm install
