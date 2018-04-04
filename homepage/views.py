@@ -1,4 +1,9 @@
 from django.shortcuts import render
+from .models import Game
+
 
 def index(request):
-    return render(request, "homepage/index.html")
+    games = Game.objects.all()
+    return render(request, "homepage/index.html", {
+        'games': games
+    })
