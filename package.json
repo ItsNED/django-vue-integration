@@ -1,0 +1,19 @@
+{
+  "name": "django-vue-integration",
+  "version": "1.0.0",
+  "description": "# Process 1. make Normal django project     - Install Django.     - django-admin startproject project_name.     - django-admin startapp app_name.     - add app in INSTALLED_APPS in settings.py.     - create templates, static folder in root.     - copy bootstrap folder into static folder.     - create layout.html in templates folder and change path for bootstrap to local from cdn.     - create model, migrate and connect to view.",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsNED/django-vue-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsNED/django-vue-integration/issues"
+  },
+  "homepage": "https://github.com/ItsNED/django-vue-integration#readme"
+}
